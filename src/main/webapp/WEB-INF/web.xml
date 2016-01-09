@@ -12,7 +12,7 @@
         </servlet-class>
         <init-param>
             <param-name>javax.ws.rs.Application</param-name>
-            <param-value>com.supperarrow.directory.DirectoryApplication</param-value>
+            <param-value>com.supperarrow.service.jetty.StockApplication</param-value>
         </init-param>
     </servlet>
 

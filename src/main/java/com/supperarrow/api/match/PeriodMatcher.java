@@ -7,7 +7,7 @@ import java.util.Set;
 import com.supperarrow.api.base.MarketAPI;
 import com.supperarrow.api.model.Order;
 
-public class MatchProcessor {
+public class PeriodMatcher {
 	
 	public static void matchOrder() {
 		Set<Long> stocks = MarketAPI.getAllStock();
